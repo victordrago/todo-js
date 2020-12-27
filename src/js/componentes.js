@@ -56,7 +56,7 @@ divTodoList.addEventListener ('click', (event) => {
     
     if (nombreElemento.includes ('input')) {  //click en el check
         todoList.marcarCompletado (todoId);
-        todoElemento.classList.toogle('completed');
+        todoElemento.classList.toggle('completed');
 
     }else  if( nombreElemento.includes ('button')) {
 
